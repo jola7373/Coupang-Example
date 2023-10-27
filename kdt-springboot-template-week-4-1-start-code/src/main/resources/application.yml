@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  sql:
+    init:
+      platform: postgresql
+
+  datasource:
+    url: jdbc:postgresql://coupang.cj3xiruwpxvh.ap-southeast-1.rds.amazonaws.com:5432/postgres # 변경해주세요
+    username: coupang
+    password:  coupange
+    driver-class-name: org.postgresql.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
