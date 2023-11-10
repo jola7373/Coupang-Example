@@ -15,3 +15,11 @@ spring:
     password:  coupange
     driver-class-name: org.postgresql.Driver # mysql 8버전
     # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
+
+#logging
+logging:
+  level:
+    org:
+      springframework:
+        security: trace
+
