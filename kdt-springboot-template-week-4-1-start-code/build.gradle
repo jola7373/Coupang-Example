@@ -25,6 +25,8 @@ repositories {
 dependencies {
     implementation 'org.jetbrains:annotations:23.0.0'
 
+    //Spring Security
+    implementation "org.springframework.boot:spring-boot-starter-security"
 
     // Spring Boot Starter
     testImplementation ('org.springframework.boot:spring-boot-starter-test')
