@@ -26,7 +26,7 @@ dependencies {
     implementation 'org.jetbrains:annotations:23.0.0'
 
     //session-jdbc
-    implementation group: 'org.springframework.session', name: 'spring-session-jdbc', version: '3.0.0'
+    implementation 'org.springframework.session:spring-session-jdbc'
 
     //oauth2
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
