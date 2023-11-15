@@ -1,4 +1,4 @@
-package com.example.demo.src.user.model;
+package com.example.demo.src.Member.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PatchUserReq {
+public class PostMemberRes {
     private int id;
-    private String name;
+
 }
