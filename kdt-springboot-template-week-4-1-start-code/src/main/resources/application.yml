@@ -16,6 +16,29 @@ spring:
     driver-class-name: org.postgresql.Driver # mysql 8버전
     # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
 
+  # 세션
+  session:
+    store-type: jdbc
+    jdbc.initialize-schema: always
+
+
+  # google
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 322946132712-qnvt7rdndhte1e6no636qhg7o4a2aqpl.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
 #logging
 logging:
   level:
